@@ -9,6 +9,8 @@ Codewar'ın işleyişi şu şekildedir :
 - Kayıt Olma :  Uygulamadaki ana işlevleri kullanmak için siteye kayıt olmanız gerekmektedir. Siteye kayıt olmadan giriş yapılmaması için sessionlar ile önlemler alınmıştır. Kayıt Olma sayfası taslağı Python'a ait WtForm ile düzenlenmiştir. Kullanıcının girdiği isim,kullanıcı adı , mail, şifre gibi özellikler WtForm'a ait özelliklerle kısıtlamalar getirilmiştir.Ayrıca kullanıcının girdileri MySQL veritabanında tutulmaktadır. Bu verilerin görüntülenmesi de XAMPP arayüzünde gerçekleştirilmiştir. 
 
 <img width="739" alt="Screenshot 2024-05-10 142652" src="https://github.com/zeyn-zeze/CodeWar/assets/116917341/39014429-889a-43a8-8bea-93148285b0e2">
+
+
 - Giriş Yapma : Kullanıcı kayıt olduktan sonra giriş yapmalıdır. Giriş ekranı için de WtForm taslağı kullanılmıştır.
 - Oyuna Başlama : Oyuna başlangıç ekranı bir sitede bir başlat butonu bulunan ve butona tıklanmasıyla oyuna erişilen bir ana sayfadır.
 - Programlama Dili Seçimi : Her bir programlama dili seçimi sonrası karşısına rastgele bir programlama dilinin gelmesi ile seçimin devam ettiği sayfadır.
