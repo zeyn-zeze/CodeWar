@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+{% block body %}
+    <h1 class="title">{{round+1}}. Tur</h1>
+
+    <div class="container">
+        <img src="{{ resim1 }}" alt="{{ data1 }}" class="resim">
+        <img src="{{ resim2 }}" alt="{{ data2 }}" class="resim">
+    </div>
+
+    <form action="/secim" method="post">
+        <div class="container">
+            <div>
+                <label class="label"><input type="radio" name="selected" value="{{ data1 }}" required>{{ data1 }}</label>
+            </div>
+            
+            <div>
+                <label class="label"><input type="radio" name="selected" value="{{ data2 }}" required>{{ data2 }}</label>
+            </div>
+        </div>
+
+        <button type="submit">Seç</button>
+    </form>
+{% endblock body %}

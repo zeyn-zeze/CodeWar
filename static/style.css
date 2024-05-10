@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Cambria, sans-serif;
+}
+
+.container {
+    display: flex; /* Container'ı bir flex container yap */
+    justify-content: center; /* İçerisindeki resimleri yatayda ortala */
+    margin-bottom: 20px; /* Container ile sonraki içerik arasında 20px boşluk bırak */
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.data {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.label {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 30px 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: x-large ;
+    display: flex;
+    justify-content: flex-end; /* Butonu sağ tarafa hizala */
+    align-items: flex-end; /* Butonu aşağı hizala */
+    position: absolute;
+}
+
+button:hover {
+    background-color: #f862a3;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 30px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: flex-end; /* Butonu sağ tarafa hizala */
+    align-items: flex-end; /* Butonu aşağı hizala */
+    position: absolute;
+    background: #f862a3;
+    font-size: x-large;
+
+}
+
+.giris{
+
+}
+
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: row; /* Resimleri yatay olarak hizala */
+    justify-content: center; /* Resimleri yatayda ortala */
+    align-items: flex-start; /* Resimlerin üst kısmından hizala */
+    flex-wrap: wrap; /* Eğer container boyutu yeterli değilse, resimleri alt satıra geçir */
+}
+
+.resim {
+    width: 400px;
+    height: 350px;
+    margin-right: 50px; 
+    margin-bottom: 60px; 
+    margin-left: 50px;
+
+.label {
+    display: contents; /* Her bir label'ı blok element yaparak alt alta sırala */
+    margin-bottom: 10px; /* Her bir label arasında 10px boşluk bırak */
+    margin-left: 20px;
+}}
+
+
+
+

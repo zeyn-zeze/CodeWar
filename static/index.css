@@ -1,0 +1,32 @@
+/* custom.css */
+
+body {
+    background-color: #d0b1f1; /* Lila arka plan rengi */
+    color: #fff; /* Beyaz metin rengi */
+    font-family: Book Antiqua, sans-serif; /* Yazı tipi */
+    text-align: center; /* Metin hizalama */
+}
+
+h1 {
+    color: #4b0082; /* Koyu mor başlık rengi */
+    font-size: xxx-large;
+}
+
+a {
+    font-size: x-large;
+    color: #fff; /* Beyaz bağlantı rengi */
+    text-decoration: none; /* Bağlantı alt çizgisi kaldır */
+}
+
+form {
+    background-color: #b57bf3; /* Form arka plan rengi */
+    border-radius: 8px; /* Form kenar yuvarlatma */
+    padding: 20px; /* Form içeriği ile kenar arasındaki boşluk */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Form gölgesi */
+    width: 300px; /* Form genişliği */
+    margin: 0 auto; /* Sayfa ortalaması */
+}
+a:hover {
+    text-decoration: underline; /* Bağlantı üzerine gelindiğinde alt çizgi ekle */
+    text-decoration-color: indigo;
+}
